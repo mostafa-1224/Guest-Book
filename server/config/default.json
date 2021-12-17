@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://mostafa-1224:123456guestbook@guest-book.fxa7h.mongodb.net/guest-book?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}

@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+}
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+}
+.nav-bar ul li {
+  padding-left: 30px;
+}
+.App {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin: 20px;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.posts .post-container {
+  background-color: aliceblue;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 2px 4px 6px;
+}
+
+.form {
+  background-color: aliceblue;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  max-height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.16) 2px 4px 6px;
+}
+.form h3 {
+  text-align: center;
+  margin-top: 0;
+}
+.form .form-element {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form .form-element input {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  line-height: 1.1em;
+  font-size: 1.1em;
+}
+.form button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  line-height: 1.1em;
+  font-size: 1.1em;
+  width: 100%;
+}
+.form button:hover {
+  background-color: cadetblue;
+}
